@@ -6,10 +6,12 @@
 
 import pandas as pd
 
-df = pd.read_csv(r'https://data.cityofnewyork.us/resource/jb7j-dtam.csv')
+def get_csv(web_link)
+ df = pd.read_csv(web_link)
+
+get_csv(r'https://data.cityofnewyork.us/resource/jb7j-dtam.csv')
 
 df = df.dropna()
-
 
 # In[7]:
 
